@@ -3,7 +3,7 @@
 ## **portfolio-ghibli-react**<br>
 <br>
 
-[https://github.com/AranATA/portfolio-ghibli-react](https://github.com/AranATA/portfolio-ghibli-react)<br>
+[ https://aranata.github.io/portfolio-ghibli-react/]( https://aranata.github.io/portfolio-ghibli-react/)<br>
 <br>
 <br>
 
@@ -73,11 +73,11 @@ These links are listing some valuable references among others that I used doing 
 
 [https://shields.io/category/dependencies/](https://shields.io/category/dependencies/)
 
-[https://pixabay.com/](https://pixabay.com/)
+[https://kirtikau.medium.com/react-converting-static-html-website-to-react-application-1a877a8e9948](https://kirtikau.medium.com/react-converting-static-html-website-to-react-application-1a877a8e9948)
 
-[https://www.screencastify.com/](https://www.screencastify.com/)
+[https://create-react-app.dev/docs/getting-started/](https://create-react-app.dev/docs/getting-started/)
 
-[https://cloudconvert.com/mp4-to-gif](https://cloudconvert.com/mp4-to-gif)
+[https://reactjs.org/docs/strict-mode.html](https://reactjs.org/docs/strict-mode.html)
 
 <br>
 <br>
