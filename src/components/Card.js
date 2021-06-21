@@ -1,13 +1,9 @@
-import React from 'react'
+import React from 'react';
 import '../App.css';
 
-const works = [
-  {
-    title:
-  }
-];
 
-function 04xProject(props) {
+
+function Card(props) {
   return (
     <div>
             <a href="https://project2mesh.herokuapp.com/" target="blank">
@@ -16,6 +12,6 @@ function 04xProject(props) {
             </a>
     </div>
   )
-}
+};
 
-export default 04xProject
+export default Card;

@@ -18,12 +18,12 @@ function App() {
       {/* Wrap page elements in Router component to keep track of location state */}
       <Router>
         <Header />
-        <div>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Navigation />
+        <Navigation />
+        <div>          
           <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
             <Route path='/about-me'>
               <About />
             </Route>
