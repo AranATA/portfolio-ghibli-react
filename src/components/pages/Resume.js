@@ -3,13 +3,13 @@ import '../../App.css';
 
 function Resume() {
   return (
-    <div>
+    <section>
       <h2>Resume</h2>
       <a href='https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing' target="blank">
         Download Full Document 
       </a>
       <div>
-        <h3>Front End Proficiencies</h3>
+        <h1>Front End Proficiencies</h1>
         <ul>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
@@ -20,7 +20,7 @@ function Resume() {
         </ul>
       </div>
       <div>
-        <h3>Back End Proficiencies</h3>
+        <h1>Back End Proficiencies</h1>
         <ul>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
@@ -30,7 +30,7 @@ function Resume() {
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 };
 

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // global components
 import Header from './components/Header';
-import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 // dynamic components
 import Home from './components/pages/Home';
@@ -14,12 +13,12 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
-    <div>
+    <body>
       {/* Wrap page elements in Router component to keep track of location state */}
       <Router>
         <Header />
-        <Navigation />
-        <div>          
+        <main>
+                   
           <Switch>
             <Route exact path='/'>
               <Home />
@@ -35,13 +34,13 @@ function App() {
             </Route>
             <Route path='/resume'>
               <Resume />
-            </Route>
-            
+            </Route>            
           </Switch>
-        </div>
+          
+        </main>
       </Router>
       <Footer />
-    </div>
+    </body>
   );
 }
 

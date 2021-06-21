@@ -65,7 +65,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding:15px 50px 20px 0px;
-  background-color: var(--darkbg);    
+  background-color: var(--darkbg);
 }
 
 header h1 {    
@@ -168,6 +168,7 @@ section {
   width:100%;
   justify-content:flex-start;
   margin-bottom:50px;
+  margin-top:50px;
 }
 
 h2 {
