@@ -5,14 +5,23 @@ import '../App.css';
 
 function Card(props) {
   return (
-    <div>
-      <a href="https://project2mesh.herokuapp.com/" target="blank">
-        <img src={props.link} alt="Work 01, showing a screenshot..."
-          class="img-large"
-        />
-      </a>
+    <div className="image-container-normal">
+      <div className="text-container-normal color">
+        <h4>{props.title}</h4>
+        <p>
+          {props.featuresA}<br/>
+          {props.featuresB}
+        </p>
+      </div>
+      <div className="bw">
+        <a href={props.link} target="blank">
+          <img src={props.image} alt="Work 01"
+              className="img-normal"/>
+        </a>
+      </div>
     </div>
   )
 };
 
-export default Card;
+      export default Card;
+

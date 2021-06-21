@@ -5,11 +5,12 @@ function Resume() {
   return (
     <section>
       <h2>Resume</h2>
-      <a href='https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing' target="blank">
-        Download Full Document 
-      </a>
-      <div>
+        <p>
+        <a href='https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing' target="blank">Download Full Document</a>
+        <br/>
+        <br/>
         <h1>Front End Proficiencies</h1>
+        <br/>
         <ul>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
@@ -18,9 +19,9 @@ function Resume() {
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
         </ul>
-      </div>
-      <div>
+        <br/>
         <h1>Back End Proficiencies</h1>
+        <br/>
         <ul>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
@@ -29,7 +30,7 @@ function Resume() {
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
           <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
         </ul>
-      </div>
+      </p>
     </section>
   )
 };
