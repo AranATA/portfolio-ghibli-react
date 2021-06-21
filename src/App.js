@@ -9,33 +9,37 @@ import Footer from './components/Footer';
 // dynamic components
 import Home from './pages/Cover';
 import About from './pages/About';
-import Works from './pages/Works';
+import Work from './pages/Work';
 import Contact from './pages/Contact';
 
 function App() {
   return (
     <div>
-      <Header />
-    {/* Wrap page elements in Router component to keep track of location state */}
+      {/* Wrap page elements in Router component to keep track of location state */}
       <Router>
-        <Navigation />
-        <Switch>
-          <Route path ='/home'>
+        <Header />
+        <div>
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path ='/about'>
-            <About />
-          </Route>
-          <Route path ='/works'>
-            <Works />
-          </Route>
-          <Route path ='/contact'>
-            <Contact />
-          </Route>
-        </Switch>
+          <Navigation />
+          <Switch>
+            <Route path='/about-me'>
+              <About />
+            </Route>
+            <Route path='/work'>
+              <Work />
+            </Route>
+            <Route path='/contact-me'>
+              <Contact />
+            </Route>
+            {/* redirecting to an external site */}
+            <Route exact path='/resume' render={() => (window.location = 'https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing')} />
+          </Switch>
+        </div>
       </Router>
       <Footer />
-    </div> 
+    </div>
   );
 }
 

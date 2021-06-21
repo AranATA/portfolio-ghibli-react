@@ -6,7 +6,7 @@ import Navigation from './Navigation'
 // dynamic components
 import Home from './pages/Cover';
 import About from './pages/About';
-import Works from './pages/Works';
+import Works from './pages/Work';
 import Contact from './pages/Contact';
 
 export default function PortfolioBody() {

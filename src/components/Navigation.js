@@ -6,10 +6,10 @@ function Navigation() {
   return (
     <nav>
       <ul>
-        <li><Link to='/home'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/works'>Works</Link></li>
-        <li><Link to='/contact'>Home</Link></li>
+        <li><Link to='/about-me'>About Me</Link></li>
+        <li><Link to='/work'>Work</Link></li>
+        <li><Link to='/contact-me'>Contact Me</Link></li>
+        <li><Link to='/resume'>Resume</Link></li>
       </ul>   
     </nav>  
   );
