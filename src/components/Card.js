@@ -6,10 +6,11 @@ import '../App.css';
 function Card(props) {
   return (
     <div>
-            <a href="https://project2mesh.herokuapp.com/" target="blank">
-              <img src={props.link} alt="a photo of Work 01, showing a screenshot..."
-                class="img-large">
-            </a>
+      <a href="https://project2mesh.herokuapp.com/" target="blank">
+        <img src={props.link} alt="Work 01, showing a screenshot..."
+          class="img-large"
+        />
+      </a>
     </div>
   )
 };

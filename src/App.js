@@ -7,9 +7,10 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 // dynamic components
-import Home from './pages/Cover';
+import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 function App() {
@@ -33,8 +34,10 @@ function App() {
             <Route path='/contact-me'>
               <Contact />
             </Route>
-            {/* redirecting to an external site */}
-            <Route exact path='/resume' render={() => (window.location = 'https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing')} />
+            <Route path='/resume'>
+              <Resume />
+            </Route>
+            
           </Switch>
         </div>
       </Router>
