@@ -1,21 +1,21 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 
 const works = [
   {
-    title:
+    title: 'mesh'
   }
 ];
 
-function 04xProject(props) {
+function Work(props) {
   return (
     <div>
             <a href="https://project2mesh.herokuapp.com/" target="blank">
               <img src={props.link} alt="a photo of Work 01, showing a screenshot..."
-                class="img-large">
+                class="img-large"/>LINK
             </a>
     </div>
   )
 }
 
-export default 04xProject
+export default Work

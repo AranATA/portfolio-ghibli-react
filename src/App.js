@@ -1,17 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-
 // global components
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 // dynamic components
-import Home from './pages/Home';
-import About from './pages/About';
-import Work from './pages/Work';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Work from './components/pages/Work';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (

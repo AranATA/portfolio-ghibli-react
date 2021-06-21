@@ -1,4 +1,12 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 
-function Home()
+function Home() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Home;

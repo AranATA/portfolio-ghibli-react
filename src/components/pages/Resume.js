@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.css';
+import '../../App.css';
 
 function Resume() {
   return (
@@ -42,4 +42,4 @@ export default Resume
 
   // {/* redirecting to an external site */}
 
-  < Route exact path = '/resume' render = {() => (window.location = 'https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing')} />
+  // < Route exact path = '/resume' render = {() => (window.location = 'https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing')} />
