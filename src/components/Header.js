@@ -1,5 +1,5 @@
 import '../App.css';
-import Navigation from './01xNavigation';
+import Navigation from './Navigation';
 
 function Header() {
   return (

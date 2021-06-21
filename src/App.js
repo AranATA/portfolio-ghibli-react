@@ -1,17 +1,41 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-// import React from "react";
-import Header from './components/01Header';
-// import Navigation from "./components/Navigation";
-import Project from './components/04xProject';
-import Footer from './components/05Footer';
+
+// global components
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+// dynamic components
+import Home from './pages/Cover';
+import About from './pages/About';
+import Works from './pages/Works';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <div>
       <Header />
-      <Project />
+    {/* Wrap page elements in Router component to keep track of location state */}
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path ='/home'>
+            <Home />
+          </Route>
+          <Route path ='/about'>
+            <About />
+          </Route>
+          <Route path ='/works'>
+            <Works />
+          </Route>
+          <Route path ='/contact'>
+            <Contact />
+          </Route>
+        </Switch>
+      </Router>
       <Footer />
-    </div>
+    </div> 
   );
 }
 
