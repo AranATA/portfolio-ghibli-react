@@ -15,7 +15,7 @@ function Card(props) {
       </div>
       <div className="bw">
         <a href={props.link} target="blank">
-          <img src={props.image} alt="Work 01"
+          <img src={props.image} alt={`Work ${props.id}`}
               className="img-normal"/>
         </a>
       </div>

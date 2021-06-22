@@ -195,6 +195,14 @@ p {
   font-weight: 500;
 }
 
+p a {
+  text-underline-offset: 7px;
+  text-decoration-thickness: 0.075rem; 
+  color:var(--darkbg);
+  font-size:1.25vw;
+  font-weight:400;
+}
+
 figure {
   width:82%;
   display:flex;
@@ -315,13 +323,14 @@ figure {
 .contact-nav {
   width:82%;
   padding-left:50px;
-  padding-right:50px;
+  padding-right:1px;
 }   
 
 .contact-nav ul {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
   padding-inline-start: 0px;
   background-color: var(--darkbg);
 }
@@ -329,8 +338,9 @@ figure {
 .contact-nav ul li {
   font-family: 'Julius Sans One', sans-serif;
   list-style-type: none;
-  padding-top:75px;
+  padding-top:55px;
   padding-bottom:45px;
+  
 }
 
 .contact-nav ul li a:hover {
@@ -347,7 +357,77 @@ figure {
   color: #d9dcd6;
   font-size:1.25vw;
   font-weight:600;
+ 
 }
+
+
+/* ADDED WITH REACT */
+.logo {
+  display:flex;
+ 
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.form {
+  
+  width:100%;
+  padding:0px 50px;
+  font-size: 1.2vw;
+  line-height: 1vw;
+
+}
+
+.form input {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  border: 2px solid var(--lightbg);
+  width: 50%;
+  padding: 14px 32px 14px 16px;
+  color: var(--darkbg);
+  font-family: 'Ruda', sans-serif;
+  font-weight: 500;
+  background: rgb(181, 231, 243);
+
+}
+
+.form-button {
+  margin-top: 14px;
+  margin-bottom: 2px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  background: var(--darkbg);
+  color: #d9dcd6;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform: capitalize;
+}
+
+.form-button:hover  {
+  filter:brightness(105%);
+  color:var(--lighttext);
+}
+
+.message {
+  height:105px;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  border: 2px solid var(--lightbg);
+  width: 50%;
+  padding: 14px 32px 14px 16px;
+  color: var(--darkbg);
+  font-family: 'Ruda', sans-serif;
+  font-weight: 500;
+  background: rgb(181, 231, 243);
+
+}
+
 
 @media screen and (max-width: 768px) {
 
