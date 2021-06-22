@@ -4,7 +4,7 @@ import '../App.css';
 function Footer() {
   return (
     <section id="Contact Me">
-      <h2>Find Me</h2>
+      <h2>Join Me</h2>
       <nav class="contact-nav">
         <ul>
           <li>
