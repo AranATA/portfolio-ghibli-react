@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-ghibli-react/static/css/main.0d6f6344.chunk.css",
-    "main.js": "/portfolio-ghibli-react/static/js/main.aabe453e.chunk.js",
-    "main.js.map": "/portfolio-ghibli-react/static/js/main.aabe453e.chunk.js.map",
+    "main.js": "/portfolio-ghibli-react/static/js/main.ead3b3cf.chunk.js",
+    "main.js.map": "/portfolio-ghibli-react/static/js/main.ead3b3cf.chunk.js.map",
     "runtime-main.js": "/portfolio-ghibli-react/static/js/runtime-main.d46a53a9.js",
     "runtime-main.js.map": "/portfolio-ghibli-react/static/js/runtime-main.d46a53a9.js.map",
     "static/js/2.b0fd8c8a.chunk.js": "/portfolio-ghibli-react/static/js/2.b0fd8c8a.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.d46a53a9.js",
     "static/js/2.b0fd8c8a.chunk.js",
     "static/css/main.0d6f6344.chunk.css",
-    "static/js/main.aabe453e.chunk.js"
+    "static/js/main.ead3b3cf.chunk.js"
   ]
 }
