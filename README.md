@@ -63,15 +63,15 @@ A full view screenshot that shows the whole webpage:<br>
 
 These links are listing some valuable references among others that I used doing this project:
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+[https://www.digitalocean.com/community/tutorials/how-to-handle-routing-in-react-apps-with-react-router](https://www.digitalocean.com/community/tutorials/how-to-handle-routing-in-react-apps-with-react-router)
 
-[https://favicon.io/favicon-generator/](https://favicon.io/favicon-generator/)
+[https://dev.to/mxdavis/redirecting-to-an-external-url-within-react-router-3nf1/](https://dev.to/mxdavis/redirecting-to-an-external-url-within-react-router-3nf1/)
 
 [https://css-tricks.com/css-media-queries/](https://css-tricks.com/css-media-queries/)
 
-[https://unsplash.com/](https://unsplash.com/)
+[https://www.freepnglogos.com/](https://www.freepnglogos.com/)
 
-[https://shields.io/category/dependencies/](https://shields.io/category/dependencies/)
+[https://www.npmjs.com/package/react-helmet](https://www.npmjs.com/package/react-helmet)
 
 [https://kirtikau.medium.com/react-converting-static-html-website-to-react-application-1a877a8e9948](https://kirtikau.medium.com/react-converting-static-html-website-to-react-application-1a877a8e9948)
 

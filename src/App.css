@@ -64,14 +64,14 @@ body {
 header {
   display: flex;
   flex-wrap: wrap;
-  padding:15px 50px 20px 0px;
+  padding:10px 50px 40px 0px;
   background-color: var(--darkbg);
 }
 
 header h1 {    
   width: 38%;
-  min-width: 280px;
-  padding: 15px 20px 10px 15px;
+  min-width: 680px;
+  padding: 45px 20px 10px 15px;
   /* background-size: cover; */
   /* background-color: var(--lightbg); */
   background-image:url("./assets/images/bg-colorful.jpg");
@@ -86,6 +86,11 @@ header h1 {
   font-family: 'Poppins', sans-serif;
   font-weight:200;
   /* font-style: italic;  */
+}
+
+h1:hover {
+  filter:brightness(105%);
+  color:var(--lighttext);
 }
 
 header nav {
@@ -127,18 +132,33 @@ article {
   justify-content: flex-end;
   align-items: flex-end;
   height: 30%;
-  padding:20px 0px 20px 25px;
+  padding:40px 0px 200px 25px;
   background-image:url("./assets/images/bg-colorful.jpg");
   background-attachment:fixed;
-  margin-bottom:35px;
+  margin-bottom:0px;
+}
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  height: 30%;
+  /* width: 750px; */
+  padding: 30px 0px 20px 40px;
+  background-image:url("./assets/images/bg-colorful.jpg");
+  background-attachment:fixed;
+  margin-bottom: 25px;
 }
 
 h3 {
-  padding:3px 15px;
-  font-size:20px;
-  color: #d9dcd6;
+  padding:5px 65px;
+  font-size:22.5px;  
+  /* color: #d9dcd6; */
+  color:var(--darkbg);
+  color: #073f4d;
   font-family: 'Julius Sans One', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style:italic;
   border-bottom:5px solid var(--darkbg);
   /* text-transform: uppercase; */
@@ -338,8 +358,8 @@ figure {
 .contact-nav ul li {
   font-family: 'Julius Sans One', sans-serif;
   list-style-type: none;
-  padding-top:55px;
-  padding-bottom:45px;
+  padding-top:30px;
+  padding-bottom:35px;
   
 }
 
@@ -394,7 +414,7 @@ figure {
 }
 
 .form-button {
-  margin-top: 14px;
+  margin-top: 18px;
   margin-bottom: 2px;
   padding: 14px;
   border: none;

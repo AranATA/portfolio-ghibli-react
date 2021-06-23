@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import {Helmet} from 'react-helmet';
 import '../../App.css';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
+
   // Create state variables for the fields in the form & an error message.
  const [firstName, setFirstName] = useState('');
  const [lastName, setLastName] = useState('');
@@ -49,6 +51,10 @@ function Contact() {
 
   return (
     <section id='Contact Me'>
+      {/* React Helmet takes plain HTML tags and outputs plain HTML tags. */}
+      <Helmet>
+        <title>Contact | Ghibli</title>
+      </Helmet>
       <h2>Contact Me</h2>
       <figure>
       <p>Not a fan of forms? You can always reach me by phone or email:

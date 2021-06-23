@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from 'react-helmet';
 import '../../App.css';
 import Card from '../Card';
 import meshImage from '../../assets/images/scrshot-mesh.png';
@@ -26,6 +27,9 @@ const works = [
 function Work() {
   return (
     <section id="Work">
+      <Helmet>
+        <title>Work | Ghibli</title>
+      </Helmet>
       <h2>Work</h2>
       <figure>
         {works.map((work) => (

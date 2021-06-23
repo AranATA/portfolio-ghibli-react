@@ -1,9 +1,13 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 import '../../App.css';
 
 function About() {
   return (
     <section id="About Me">
+      <Helmet>
+        <title>About | Ghibli</title>
+      </Helmet>
       <h2>About Me</h2>
       <p>
         My name is Ali Aran, I am a student at UNC-Chapel Hill Boot Camp, in the "Full Stack Flex Program". Spread over
