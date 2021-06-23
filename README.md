@@ -42,18 +42,10 @@ The codebase achieves the following criteria:<br>
 
 ***
 
-The wireframe diagram:<br>
-<br>
-
-![alt text](assets/images/wireframe-portfolio-ghibli-s.png)
-
-<br>
-<br>
-
 A full view screenshot that shows the whole webpage:<br>
 <br>
 
-![alt text](assets/images/scrshot.png)
+![alt text](src/assets/images/scrshot-portfolio-react.png)
 <br>
 <br>
 
@@ -68,6 +60,8 @@ These links are listing some valuable references among others that I used doing 
 [https://dev.to/mxdavis/redirecting-to-an-external-url-within-react-router-3nf1/](https://dev.to/mxdavis/redirecting-to-an-external-url-within-react-router-3nf1/)
 
 [https://css-tricks.com/css-media-queries/](https://css-tricks.com/css-media-queries/)
+
+[https://forum.freecodecamp.org/t/newline-in-react-string-solved/68484](https://forum.freecodecamp.org/t/newline-in-react-string-solved/68484)
 
 [https://www.freepnglogos.com/](https://www.freepnglogos.com/)
 

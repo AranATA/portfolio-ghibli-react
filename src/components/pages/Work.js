@@ -4,11 +4,44 @@ import '../../App.css';
 import Card from '../Card';
 import meshImage from '../../assets/images/scrshot-mesh.png';
 import techBlogImage from '../../assets/images/scrshot-techblog-home.png';
+import budgetAppImage from '../../assets/images/scrshot-budget-home.png';
+import workoutImage from '../../assets/images/join-workout.png';
+import teamProfileImage from '../../assets/images/scrshot-team-profile-generator.png';
+import bfImage from '../../assets/images/bf-image.png';
+import weatherImage from '../../assets/images/weather-screen-image.png';
+import mipsoImage from '../../assets/images/mipso.png';
 
 const works = [
   {
-    title: 'MESH',
-    id: 1,
+    title: 'Online/Offline \nBudget App',
+    id: 8,
+    featuresA: 'IndexedDB | Mongoose',
+    featuresB: 'ExpressJS | Service-workers',
+    image: budgetAppImage,
+    linkD: 'https://shrouded-coast-31692.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/online-offline-budget-app'
+  },
+  {
+    title: 'Workout Tracker',
+    id: 7,
+    featuresA: 'Mongoose | MongoDB Atlas',
+    featuresB: 'ExpressJS | ChartJS',
+    image: workoutImage,
+    linkD: 'https://damp-plains-35978.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/workout-tracker'
+  },
+  {
+    title: 'Tech Blog',
+    id: 6,
+    featuresA: 'MVC | Handlebars',
+    featuresB: 'ExpressJS | Sequelize',
+    image: techBlogImage,
+    linkD: 'https://tech-blog-aranata.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/tech-blog'
+  },
+  {
+    title: 'Project - MESH',
+    id: 5,
     featuresA: 'MVC | Handlebars',
     featuresB: 'ExpressJS | Sequelize',
     image: meshImage,
@@ -16,15 +49,41 @@ const works = [
     linkG: 'https://github.com/AranATA/mesh'
   },
   {
-    title: 'Tech Blog',
-    id: 2,
-    featuresA: 'MVC | Handlebars',
-    featuresB: 'ExpressJS | Sequelize',
-    image: techBlogImage,
-    linkD: 'https://tech-blog-aranata.herokuapp.com/',
-    linkG: 'https://github.com/AranATA/tech-blog'
+    title: 'Team Profile \nGenerator',
+    id: 4,
+    featuresA: 'OOD | CLI-Inquirer',
+    featuresB: 'Unit Test & Jest',
+    image: teamProfileImage,
+    linkD: 'https://drive.google.com/file/d/1R_f3fNE6XvADJ-OV4wGsR3qmg_w4hl6t/view',
+    linkG: 'https://github.com/AranATA/team-profile-generator'
   },
-
+  {
+    title: 'Project - Buddy Finder',
+    id: 3,
+    featuresA: '3rd Party APIs (Petfinder, Mapbox-LeafletJs)',
+    featuresB: 'Dynamic HTML | Materialize CSS',
+    image: bfImage,
+    linkD: 'https://aranata.github.io/project-bf/',
+    linkG: 'https://github.com/AranATA/project-bf'
+  },
+  {
+    title: 'Weather Screen',
+    id: 2,
+    featuresA: '3rd Party API (OpenWeather)',
+    featuresB: 'Dynamic HTML | Bootstrap CSS',
+    image: weatherImage,
+    linkD: 'https://aranata.github.io/weather-screen/',
+    linkG: 'https://github.com/AranATA/weather-screen'
+  },
+  {
+    title: 'MIPSO',
+    id: 1,
+    featuresA: 'A Fan Page',
+    featuresB:  'HTML | CSS',
+    image: mipsoImage,
+    linkD: 'https://aranata.github.io/Fanpage-mipso/',
+    linkG: 'https://github.com/AranATA/Fanpage-mipso'
+  },
 ];
 
 function Work() {

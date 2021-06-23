@@ -16,23 +16,23 @@ function Resume() {
         <h1>Front End Proficiencies</h1>
         <br/>
         <ul>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
+          <li>HTML</li>
+          <li>CSS and Bootstrap</li>
+          <li>Accessibility and Responsive Design</li>
+          <li>Third Party APIs</li>
+          <li>MVC and Handlebars.JS</li>
+          <li>React</li>
         </ul>
         <br/>
         <h1>Back End Proficiencies</h1>
         <br/>
         <ul>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
-          <li>Nunc pharetra finibus est at efficitur. Praesent sed congue diam.</li>
+          <li>Node.JS - Express.JS</li>
+          <li>MySQL - Sequelize</li>
+          <li>Restful APIs - CRUD</li>
+          <li>MVC - Controllers and Models</li>
+          <li>MongoDB - Mongoose</li>
+          <li>GraphQL</li>
         </ul>
       </p>
     </section>

@@ -16,9 +16,10 @@ function About() {
         entitle each graduate as a "Full Stack Web Developer".
         <br/>
         <br/>
-        This particular portfolio page displays examples of the work that I have completed in the program after 9 weeks
-        of rigorous learning and it will be updated regularly to include more advanced work. The main topics which I
-        covered so far include: HTML, Git, CSS, Javascript, Web-APIs, Third-Party-APIs and Server-Side-APIs.
+        This particular portfolio page displays examples of the work that I have completed in the program after 19 weeks of rigorous learning and it will be updated regularly to include more advanced work. The main topics which I learnt thus far include:
+        <br/>
+        <p class='tab'>HTML, Git, CSS, Javascript, Web-APIs, Third-Party-APIs, Server-Side-APIs, jQuery, Bootstrap CSS, Node.JS, Object-Oriented Programming and ES6, Express.JS Framework, MySQL, Object Relational Mapping - Sequelize, CLI, RESTful APIs - CRUD, Insomnia, Heroku, Validation, ESLint, MVC Paradigm, Handlebars.JS, Environment Variables, User Authentication, NoSQL and MongoDB, Mongoose, IndexedDB, Progressive Web Applications, Manifest and Service Workers, Webpack and React.</p>
+        I used React to create this portfolio app at the end of the 19th week.
         <br/>
         <br/>
         I am an architect and prior to my involvement in coding I mostly worked on residential projects both in the US
@@ -39,7 +40,7 @@ function About() {
         <br/>
         <br/>
         All along my professional life, I took great advantage of my critical thinking skills, attention to details and
-        commitment to success. Now, I like to continue manifesting my potential as a "Web Developer" and I am really
+        commitment to success. Now, I like to continue manifesting my potential as a "Full Stack Web Developer" and I am really
         excited!
       </p>
     </section>

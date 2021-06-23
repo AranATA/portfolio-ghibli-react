@@ -40,7 +40,7 @@ function Footer() {
         </nav>
       </section>
       <div className="article">
-       <p className="pin">                   &copy; 2021 Ghibli                                                                                                                                                                                                                                    </p>
+       <p className="pin">   &copy; 2021 Ghibli                                                                                                                                                                                                                                    </p>
       </div>
     </div>
   );

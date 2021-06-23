@@ -279,7 +279,7 @@ figure {
 }
 
 .bw:hover {
-  filter:brightness(100%);
+  filter:brightness(95%);
 }
 
 .bw-l:hover {
@@ -323,13 +323,14 @@ figure {
   width:49.25%;
   margin-top:15px;
   border:var(--lighttext) solid 5px;
+  filter:brightness(92.5%);
 }
 
-.image-container-normal:hover { filter:brightness(110%); }
+.image-container-normal:hover { filter:brightness(97.5%); }
 
 .text-container-normal {
   position:absolute;
-  height:155px;
+  height:175px;
   Background-color: var(--lighttext);
   padding:15px 15px;
   text-align:left;
@@ -338,7 +339,7 @@ figure {
 }
 
 .image-container-normal div h4 {
-  font-size:2vw;
+  font-size:1.5vw;
   font-family: 'Cinzel', serif;
   font-weight:500;
 }
@@ -400,8 +401,19 @@ figure {
  
 }
 
+.tab {
+  margin-left: 40px;
+  text-align: justify;
+}
+
 
 /* ADDED WITH REACT */
+
+
+
+h4 {
+  white-space: pre-wrap;
+}
 
 .pin {  
   text-decoration:underline; white-space: pre;
