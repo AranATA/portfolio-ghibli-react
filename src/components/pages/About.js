@@ -44,7 +44,7 @@ function About() {
         excited!
       </p>
     </section>
-  )
+  );
 };
 
 export default About;

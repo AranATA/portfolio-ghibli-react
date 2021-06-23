@@ -12,12 +12,12 @@ function Card(props) {
         <div>
           <div className="card-logo">
             <a href={props.linkG} target="blank">
-              <img src= {githublogoneg} alt="Github logo prev"/>
-              <img src= {githublogo} alt="Github logo next" className="img-next"/>
+              <img src={githublogoneg} alt="Github logo prev" />
+              <img src={githublogo} alt="Github logo next" className="img-next" />
             </a>
           </div>
           <div className='features'>
-            {props.featuresA}<br/>
+            {props.featuresA}<br />
             {props.featuresB}
           </div>
         </div>
@@ -25,12 +25,10 @@ function Card(props) {
       <div className="bw">
         <a href={props.linkD} target="blank">
           <img src={props.image} alt={`Work ${props.id}`}
-              className="img-normal"/>
+            className="img-normal" />
         </a>
       </div>
     </div>
-  )
+  );
 };
-
-      export default Card;
-
+export default Card;

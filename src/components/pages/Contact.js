@@ -112,6 +112,6 @@ function Contact() {
       </figure>
     </section>
   );
-}
+};
 
 export default Contact

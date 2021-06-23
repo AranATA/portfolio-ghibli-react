@@ -100,6 +100,6 @@ function Work() {
       </figure>
     </section>
   );
-}
+};
 
 export default Work

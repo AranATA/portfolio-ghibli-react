@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Header />
         <main>
-                   
+
           <Switch>
             <Route exact path='/'>
               <Home />
@@ -34,21 +34,16 @@ function App() {
             </Route>
             <Route path='/resume'>
               <Resume />
-            </Route>            
+            </Route>
           </Switch>
-          
+
         </main>
       </Router>
       <Footer />
     </body>
   );
-}
-
+};
 export default App;
-
-
-
-
 
 
 // FOR FUTURE USE / OR DELETE

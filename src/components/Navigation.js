@@ -10,8 +10,8 @@ function Navigation() {
         <li><Link to='/work'>Work</Link></li>
         <li><Link to='/contact-me'>Contact Me</Link></li>
         <li><Link to='/resume'>Resume</Link></li>
-      </ul>   
-    </nav>  
+      </ul>
+    </nav>
   );
 }
 

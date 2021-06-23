@@ -36,7 +36,7 @@ function Resume() {
         </ul>
       </p>
     </section>
-  )
+  );
 };
 
 export default Resume
