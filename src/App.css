@@ -156,7 +156,7 @@ h3 {
   font-size:22.5px;  
   /* color: #d9dcd6; */
   color:var(--darkbg);
-  color: #073f4d;
+  /* color: #073f4d; */
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 600;
   font-style:italic;
@@ -187,7 +187,7 @@ section {
   display: flex;
   width:100%;
   justify-content:flex-start;
-  margin-bottom:50px;
+  margin-bottom:25px;
   margin-top:50px;
 }
 
@@ -213,6 +213,26 @@ p {
   line-height: 3vw;
   font-family: 'Ruda', sans-serif;
   font-weight: 500;
+}
+
+.card-logo {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  display: inline-block;
+  margin: 2px;
+}
+
+.card-logo .img-next {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.card-logo:hover .img-next {
+  display: inline;
 }
 
 p a {
@@ -309,7 +329,7 @@ figure {
 
 .text-container-normal {
   position:absolute;
-  height:135px;
+  height:155px;
   Background-color: var(--lighttext);
   padding:15px 15px;
   text-align:left;
@@ -323,7 +343,7 @@ figure {
   font-weight:500;
 }
 
-.image-container-normal div p {
+/* .image-container-normal div p {
   width:100%;
   padding:10px 0px;
   font-size:16px;
@@ -331,7 +351,7 @@ figure {
   font-weight:400;
   color: #d9dcd6;
   line-height: 20px;
-}
+} */
 
 .img-normal{
   height:360px;
@@ -375,13 +395,30 @@ figure {
   text-align: justify;
   color:var(--lighttext);
   color: #d9dcd6;
-  font-size:1.25vw;
+  font-size:1vw;
   font-weight:600;
  
 }
 
 
 /* ADDED WITH REACT */
+
+.pin {  
+  text-decoration:underline; white-space: pre;
+  text-decoration-thickness: 0.55rem;
+  padding:0px 0px;
+}
+
+.features {
+  width:100%;
+  padding:0px 0px;
+  font-size:16px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:400;
+  color: #d9dcd6;
+  line-height: 20px;
+}
+
 .logo {
   display:flex;
  
@@ -409,8 +446,12 @@ figure {
   color: var(--darkbg);
   font-family: 'Ruda', sans-serif;
   font-weight: 500;
+  font-size: 0.8vw;
   background: rgb(181, 231, 243);
+}
 
+.form textarea {
+  font-size: 0.8vw;
 }
 
 .form-button {
@@ -424,6 +465,7 @@ figure {
   background: var(--darkbg);
   color: #d9dcd6;
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.015vw;
   text-transform: capitalize;
 }
 

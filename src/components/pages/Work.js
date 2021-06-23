@@ -12,7 +12,8 @@ const works = [
     featuresA: 'MVC | Handlebars',
     featuresB: 'ExpressJS | Sequelize',
     image: meshImage,
-    link: 'https://project2mesh.herokuapp.com/'
+    linkD: 'https://project2mesh.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/mesh'
   },
   {
     title: 'Tech Blog',
@@ -20,8 +21,10 @@ const works = [
     featuresA: 'MVC | Handlebars',
     featuresB: 'ExpressJS | Sequelize',
     image: techBlogImage,
-    link: 'https://tech-blog-aranata.herokuapp.com/'
-  }
+    linkD: 'https://tech-blog-aranata.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/tech-blog'
+  },
+
 ];
 
 function Work() {
@@ -33,7 +36,7 @@ function Work() {
       <h2>Work</h2>
       <figure>
         {works.map((work) => (
-          <Card title={work.title} key={work.id} featuresA={work.featuresA} featuresB={work.featuresB} image={work.image} link={work.link} />
+          <Card title={work.title} key={work.id} featuresA={work.featuresA} featuresB={work.featuresB} image={work.image} linkD={work.linkD} linkG={work.linkG} />
         ))}
       </figure>
     </section>
