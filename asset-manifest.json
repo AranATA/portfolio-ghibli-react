@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-ghibli-react/static/css/main.0d6f6344.chunk.css",
+    "main.js": "/portfolio-ghibli-react/static/js/main.aabe453e.chunk.js",
+    "main.js.map": "/portfolio-ghibli-react/static/js/main.aabe453e.chunk.js.map",
+    "runtime-main.js": "/portfolio-ghibli-react/static/js/runtime-main.d46a53a9.js",
+    "runtime-main.js.map": "/portfolio-ghibli-react/static/js/runtime-main.d46a53a9.js.map",
+    "static/js/2.b0fd8c8a.chunk.js": "/portfolio-ghibli-react/static/js/2.b0fd8c8a.chunk.js",
+    "static/js/2.b0fd8c8a.chunk.js.map": "/portfolio-ghibli-react/static/js/2.b0fd8c8a.chunk.js.map",
+    "index.html": "/portfolio-ghibli-react/index.html",
+    "static/css/main.0d6f6344.chunk.css.map": "/portfolio-ghibli-react/static/css/main.0d6f6344.chunk.css.map",
+    "static/js/2.b0fd8c8a.chunk.js.LICENSE.txt": "/portfolio-ghibli-react/static/js/2.b0fd8c8a.chunk.js.LICENSE.txt",
+    "static/media/bf-image.7806cd2b.png": "/portfolio-ghibli-react/static/media/bf-image.7806cd2b.png",
+    "static/media/App.css": "/portfolio-ghibli-react/static/media/bg-colorful.771e4c57.jpg",
+    "static/media/join-workout.05292bd8.png": "/portfolio-ghibli-react/static/media/join-workout.05292bd8.png",
+    "static/media/mipso.d225c14e.png": "/portfolio-ghibli-react/static/media/mipso.d225c14e.png",
+    "static/media/portfolio-photo.1e48b936.jpg": "/portfolio-ghibli-react/static/media/portfolio-photo.1e48b936.jpg",
+    "static/media/scrshot-budget-home.ebd28c50.png": "/portfolio-ghibli-react/static/media/scrshot-budget-home.ebd28c50.png",
+    "static/media/scrshot-mesh.16339697.png": "/portfolio-ghibli-react/static/media/scrshot-mesh.16339697.png",
+    "static/media/scrshot-team-profile-generator.6c45b7e8.png": "/portfolio-ghibli-react/static/media/scrshot-team-profile-generator.6c45b7e8.png",
+    "static/media/scrshot-techblog-home.0ba9bc2f.png": "/portfolio-ghibli-react/static/media/scrshot-techblog-home.0ba9bc2f.png",
+    "static/media/weather-screen-image.82e2ace1.png": "/portfolio-ghibli-react/static/media/weather-screen-image.82e2ace1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d46a53a9.js",
+    "static/js/2.b0fd8c8a.chunk.js",
+    "static/css/main.0d6f6344.chunk.css",
+    "static/js/main.aabe453e.chunk.js"
+  ]
+}
