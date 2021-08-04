@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet';
 import '../../App.css';
 import Card from '../Card';
 
+import recipesImage from '../../assets/images/scrshot-recipes-signup.png';
 import reduxImage from '../../assets/images/scrshot-redux-home.png';
 import bookSearchImage from '../../assets/images/scrshot-search-s.png';
 import meshImage from '../../assets/images/scrshot-mesh.png';
@@ -15,11 +16,19 @@ import weatherImage from '../../assets/images/weather-screen-image.png';
 import mipsoImage from '../../assets/images/mipso.png';
 
 const works = [
-  
+  {
+    title: 'Project -\nRecipes OutLoud',
+    id: 11,
+    featuresA: 'MERN | React-Speech',
+    featuresB: 'Tailwindcss | Headless UI',
+    image: recipesImage,
+    linkD: 'https://obscure-wave-54940.herokuapp.com/',
+    linkG: 'https://github.com/AbnerTor/recipes-outloud-two'
+  },
   {
     title: 'Redux Store',
     id: 10,
-    featuresA: 'MERN Stack | Stripe',
+    featuresA: 'MERN | Stripe',
     featuresB: 'React | Redux',
     image: reduxImage,
     linkD: 'https://obscure-reaches-85100.herokuapp.com/',
@@ -28,7 +37,7 @@ const works = [
   {
     title: 'Book Search \nEngine',
     id: 9,
-    featuresA: 'MERN Stack | React',
+    featuresA: 'MERN | React',
     featuresB: 'Apollo Server | GraphQL',
     image: bookSearchImage,
     linkD: 'https://guarded-earth-69443.herokuapp.com/',
