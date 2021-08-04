@@ -2,6 +2,9 @@ import React from 'react'
 import {Helmet} from 'react-helmet';
 import '../../App.css';
 import Card from '../Card';
+
+import reduxImage from '../../assets/images/scrshot-redux-home.png';
+import bookSearchImage from '../../assets/images/scrshot-search-s.png';
 import meshImage from '../../assets/images/scrshot-mesh.png';
 import techBlogImage from '../../assets/images/scrshot-techblog-home.png';
 import budgetAppImage from '../../assets/images/scrshot-budget-home.png';
@@ -12,6 +15,25 @@ import weatherImage from '../../assets/images/weather-screen-image.png';
 import mipsoImage from '../../assets/images/mipso.png';
 
 const works = [
+  
+  {
+    title: 'Redux Store',
+    id: 10,
+    featuresA: 'MERN Stack | Stripe',
+    featuresB: 'React | Redux',
+    image: reduxImage,
+    linkD: 'https://obscure-reaches-85100.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/redux-store'
+  },
+  {
+    title: 'Book Search \nEngine',
+    id: 9,
+    featuresA: 'MERN Stack | React',
+    featuresB: 'Apollo Server | GraphQL',
+    image: bookSearchImage,
+    linkD: 'https://guarded-earth-69443.herokuapp.com/',
+    linkG: 'https://github.com/AranATA/book-search-engine'
+  },
   {
     title: 'Online/Offline \nBudget App',
     id: 8,
@@ -90,7 +112,7 @@ function Work() {
   return (
     <section id="Work">
       <Helmet>
-        <title>Work | Ghibli</title>
+        <title>Work | Aran</title>
       </Helmet>
       <h2>Work</h2>
       <figure>

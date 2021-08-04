@@ -6,11 +6,11 @@ function Resume() {
   return (
     <section>
       <Helmet>
-        <title>Resume | Ghibli</title>
+        <title>Resume | Aran</title>
       </Helmet>
       <h2>Resume</h2>
         <p>
-        <a href='https://docs.google.com/document/d/1DbzzKpfFp9nms37w8c6PoG5Ya0vPHIdJk4PkH1aruIs/edit?usp=sharing' target="blank">Download Full Document</a>
+        <a href='https://resume.io/r/bR36xnRxL' target="blank">See Full Document</a>
         <br/>
         <br/>
         <h1>Front End Proficiencies</h1>

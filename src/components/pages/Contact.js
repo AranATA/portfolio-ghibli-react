@@ -53,13 +53,13 @@ function Contact() {
     <section id='Contact Me'>
       {/* React Helmet takes plain HTML tags and outputs plain HTML tags. */}
       <Helmet>
-        <title>Contact | Ghibli</title>
+        <title>Contact | Aran</title>
       </Helmet>
       <h2>Contact Me</h2>
       <figure>
       <p>Not a fan of forms? You can always reach me by phone or email:
         <br/>
-        <a href='tel:+01-919-555-5555'>PHONE: +1-919-555-5555 </a>
+        <a href='tel:+01-919-869-6193'>PHONE: +1-919-869-6193 </a>
         <br/>
         <a href='mailto: ghibli.github@gmail.com'> EMAIL: ghibli.github@gmail.com </a>
         <br/>

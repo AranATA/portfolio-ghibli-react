@@ -7,7 +7,7 @@ function Home() {
   return (
     <article>
       <Helmet>
-        <title>Home | Ghibli</title>
+        <title>Home | ARAN</title>
       </Helmet>
       <h3>“Everybody should learn to program a computer, because it teaches you how to think.” <span>- Steve Jobs</span>
       </h3>      

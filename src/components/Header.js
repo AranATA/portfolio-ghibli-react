@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className='header'>
       <Link to={process.env.PUBLIC_URL + '/'} style={{ textDecoration: 'none' }}>
-        <h1>G H I B L I</h1>
+        <h1>ALI ARAN</h1>
       </Link>
       <Navigation />
     </header>
